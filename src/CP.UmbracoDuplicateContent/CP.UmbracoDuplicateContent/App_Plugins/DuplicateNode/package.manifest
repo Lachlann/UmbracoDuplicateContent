@@ -1,0 +1,10 @@
+﻿{
+    //array of files we want to inject into the application on app_start
+    javascript: [
+		'~/App_Plugins/DuplicateNode/data/lorem-ipsum-names.js',
+        '~/App_Plugins/DuplicateNode/DuplicateNode.controller.js'
+    ],
+	css:[
+		'~/App_Plugins/DuplicateNode/duplicate-node-style.css'
+	]
+}
