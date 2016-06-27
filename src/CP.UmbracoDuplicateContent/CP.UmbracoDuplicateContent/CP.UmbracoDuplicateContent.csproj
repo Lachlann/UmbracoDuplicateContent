@@ -280,6 +280,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <Content Include="App_Plugins\DuplicateNode\package.manifest" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -288,6 +289,11 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Plugins\DuplicateNode\data\lorem-ipsum-names.js" />
+    <Content Include="App_Plugins\DuplicateNode\duplicate-node-style.css" />
+    <Content Include="App_Plugins\DuplicateNode\DuplicateNode.controller.js" />
+    <Content Include="App_Plugins\DuplicateNode\DuplicateNodeView.html" />
+    <Content Include="App_Plugins\DuplicateNode\lang\en-US.xml" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
